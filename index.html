@@ -1,91 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ASF Kids — ASF</title>
-<meta name="description" content="Iniciação ao surf para meninas, com segurança e diversão">
-<style>
-:root{--rosa:#ff4d8d;--roxo:#7b2ff7;--areia:#fff5ec;--mar:#00c2cb}
-*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',system-ui,sans-serif}
-body{background:linear-gradient(160deg,#fff5ec,#ffe3f1 60%,#e0f7fa);min-height:100vh;color:#333}
-header{background:linear-gradient(90deg,var(--rosa),var(--roxo));color:#fff;padding:2rem 1rem;text-align:center}
-header h1{font-size:2rem} header p{opacity:.9;margin-top:.4rem}
-nav{display:flex;flex-wrap:wrap;gap:.4rem;justify-content:center;padding:.8rem;background:#fff;box-shadow:0 2px 8px #0001;position:sticky;top:0;z-index:10}
-nav a{background:var(--areia);border:1px solid #ffd3e6;color:#c2185b;padding:.3rem .7rem;border-radius:20px;font-size:.78rem;text-decoration:none}
-nav a:hover{background:var(--rosa);color:#fff}
-main{max-width:760px;margin:1.5rem auto;padding:0 1rem}
-.card{background:#fff;border-radius:16px;padding:1.4rem;box-shadow:0 4px 16px #7b2ff720;margin-bottom:1.2rem}
-.card h2{color:var(--roxo);margin-bottom:.6rem;font-size:1.2rem}
-button{background:linear-gradient(90deg,var(--rosa),var(--roxo));color:#fff;border:none;padding:.6rem 1.2rem;border-radius:24px;font-size:1rem;cursor:pointer}
-button:hover{opacity:.85}
-input,select,textarea{padding:.5rem;border:1px solid #ddd;border-radius:10px;width:100%;margin:.3rem 0;font-size:1rem}
-.xp{position:fixed;bottom:1rem;right:1rem;background:#fff;border:2px solid var(--rosa);border-radius:24px;padding:.4rem 1rem;font-weight:bold;color:var(--roxo);box-shadow:0 4px 12px #0002}
-footer{text-align:center;padding:2rem;font-size:.8rem;color:#888}
-</style>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ASF Kids — Surf para Crianças</title>
+<meta name="description" content="Surf para crianças: guia interativo para mães e filhas começarem juntas. Satélite do app ASF.">
+<style>:root{--p:#00a8cc;--pd:#0e2439;--g:#f4d03f;--pk:#ff6fa5}*{box-sizing:border-box;margin:0}body{font-family:system-ui,sans-serif;background:#fffaf5;color:var(--pd)}nav{background:var(--pd);padding:9px 12px;display:flex;flex-wrap:wrap;gap:6px}nav a{color:#fff;text-decoration:none;font-size:11px;font-weight:600;padding:4px 8px;border-radius:20px;background:rgba(255,255,255,.08)}nav a.hub{background:var(--g);color:var(--pd)}header{padding:36px 20px;text-align:center;background:linear-gradient(135deg,#ff6fa520,#f4d03f20)}h1{font-size:26px}main{max-width:640px;margin:20px auto;padding:0 16px}.card{background:#fff;border-radius:16px;padding:20px;margin-bottom:14px;box-shadow:0 2px 12px rgba(0,0,0,.07);border-top:4px solid var(--pk)}.card h3{font-size:17px;margin-bottom:8px}.card p,.card li{font-size:14px;color:#456}ul{margin:8px 0 0 18px}li{margin-bottom:6px}.faq{cursor:pointer}.faq .a{display:none;margin-top:8px;padding-top:8px;border-top:1px dashed #eee}.faq.open .a{display:block}.faq .q{font-weight:700;font-size:15px}.muted{color:#678;font-size:13px}footer{text-align:center;padding:26px;font-size:12px;color:#678}</style>
 </head>
 <body>
-<header><h1>👧 ASF Kids</h1><p>Iniciação ao surf para meninas, com segurança e diversão</p></header>
-<nav><a href="https://acarolmourad-commits.github.io/asf-app/">🏄‍♀️ ASF App</a>
-<a href="https://acarolmourad-commits.github.io/asf-praias/">Praias</a>
-<a href="https://acarolmourad-commits.github.io/asf-previsao/">Previsao</a>
-<a href="https://acarolmourad-commits.github.io/asf-treino/">Treino</a>
-<a href="https://acarolmourad-commits.github.io/asf-eventos/">Eventos</a>
-<a href="https://acarolmourad-commits.github.io/asf-glossario/">Glossario</a>
-<a href="https://acarolmourad-commits.github.io/asf-seguranca/">Seguranca</a>
-<a href="https://acarolmourad-commits.github.io/asf-comunidade/">Comunidade</a>
-<a href="https://acarolmourad-commits.github.io/asf-equipamento/">Equipamento</a>
-<a href="https://acarolmourad-commits.github.io/asf-quiz/">Quiz</a>
-<a href="https://acarolmourad-commits.github.io/asf-nutricao/">Nutricao</a>
-<a href="https://acarolmourad-commits.github.io/asf-historia/">Historia</a>
-<a href="https://acarolmourad-commits.github.io/asf-viagens/">Viagens</a>
-<a href="https://acarolmourad-commits.github.io/asf-bemestar/">Bemestar</a>
-<a href="https://acarolmourad-commits.github.io/asf-diario/">Diario</a>
-<a href="https://acarolmourad-commits.github.io/asf-eco/">Eco</a>
-<a href="https://acarolmourad-commits.github.io/asf-mental/">Mental</a>
-<a href="https://acarolmourad-commits.github.io/asf-ranking/">Ranking</a>
-<a href="https://acarolmourad-commits.github.io/asf-respira/">Respira</a>
-<a href="https://acarolmourad-commits.github.io/asf-sos/">Sos</a>
-<a href="https://acarolmourad-commits.github.io/asf-volume/">Volume</a>
-<a href="https://acarolmourad-commits.github.io/asf-yoga/">Yoga</a></nav>
+<nav>
+<a class="hub" href="https://acarolmourad-commits.github.io/asf-app/">🏄‍♀️ ASF App</a>
+<a href="https://acarolmourad-commits.github.io/asf-comunidade/">💜</a><a href="https://acarolmourad-commits.github.io/asf-seguranca/">🛟</a><a href="https://acarolmourad-commits.github.io/asf-praias/">🏖️</a><a href="https://acarolmourad-commits.github.io/asf-loja/">🛍️</a><a href="https://acarolmourad-commits.github.io/asf-previsao/">🌊</a><a href="https://acarolmourad-commits.github.io/asf-mare/">🌙</a><a href="https://acarolmourad-commits.github.io/asf-atlas/">🗺️</a><a href="https://acarolmourad-commits.github.io/asf-mala/">🎒</a><a href="https://acarolmourad-commits.github.io/asf-treino/">💪</a><a href="https://acarolmourad-commits.github.io/asf-popup/">⏱️</a><a href="https://acarolmourad-commits.github.io/asf-desafio/">🗓️</a><a href="https://acarolmourad-commits.github.io/asf-eventos/">📅</a><a href="https://acarolmourad-commits.github.io/asf-glossario/">📖</a><a href="https://acarolmourad-commits.github.io/asf-memoria/">🧩</a><a href="https://acarolmourad-commits.github.io/asf-manobras/">🤸</a><a href="https://acarolmourad-commits.github.io/asf-bemestar/">🧘</a><a href="https://acarolmourad-commits.github.io/asf-yoga/">🧘‍♀️</a><a href="https://acarolmourad-commits.github.io/asf-vento/">💨</a><a href="https://acarolmourad-commits.github.io/asf-sos/">🆘</a><a href="https://acarolmourad-commits.github.io/asf-leitura/">👁️</a><a href="https://acarolmourad-commits.github.io/asf-quiz/">🧠</a><a href="https://acarolmourad-commits.github.io/asf-equipamento/">🏄</a><a href="https://acarolmourad-commits.github.io/asf-nutricao/">🥑</a><a href="https://acarolmourad-commits.github.io/asf-viagens/">✈️</a><a href="https://acarolmourad-commits.github.io/asf-historia/">📜</a><a href="https://acarolmourad-commits.github.io/asf-diario/">📓</a><a href="https://acarolmourad-commits.github.io/asf-respira/">🫁</a><a href="https://acarolmourad-commits.github.io/asf-volume/">📐</a>
+</nav>
+<header><h1>👧 ASF Kids</h1><p class="muted">Mães e filhas no surf juntas — o começo mais seguro e divertido</p></header>
 <main>
-<div class="card"><h2>🎮 Jogo: Praia Segura!</h2><p>O que você faz nessa situação?</p><p id="q" style="font-weight:bold;margin:.5rem 0"></p><div id="o"></div><h3 id="f"></h3><p>Pontos: <b id="pts">0</b></p></div>
-<div class="card"><h2>🌈 Regras de Ouro das Mini-Surfistas</h2><ol><li>Nunca entre no mar sozinha</li><li>Sempre com uma adulta por perto</li><li>Protetor solar e lycra UV</li><li>Obedeça a bandeira dos salva-vidas</li><li>Diversão em primeiro lugar! 🏄‍♀️</li></ol><p>Aprenda mais em <a href='https://acarolmourad-commits.github.io/asf-seguranca/'>ASF Segurança</a>.</p></div>
-<div class="card"><h2>🌐 Ecossistema ASF</h2><p>Este app faz parte da constelação ASF — Associação de Surf Feminino. Ganhe XP aqui e veja seu progresso no <a href="https://acarolmourad-commits.github.io/asf-ranking/">ASF Ranking</a>. App principal: <a href="https://acarolmourad-commits.github.io/asf-app/">ASF App</a>.</p></div>
+<div class="card"><h3>🌟 Por que começar cedo?</h3><p>Crianças não têm medo das ondas — têm curiosidade. O surf infantil desenvolve equilíbrio, confiança e conexão com o mar. E a mãe que surfa junto cria memórias para a vida inteira.</p></div>
+<div class="card"><h3>📏 Prancha ideal por idade</h3><ul><li><b>4–7 anos:</b> bodyboard ou softboard 6'0"+ na espuma, sempre com a mãe do lado</li><li><b>8–12 anos:</b> softboard 7'0", ondas pequenas e previsíveis</li><li><b>13+:</b> acompanha a trilha adulta do <a href="https://acarolmourad-commits.github.io/asf-manobras/">ASF Manobras</a></li></ul></div>
+<div class="card"><h3>🏖️ Praias perfeitas para o primeiro dia</h3><p>Enseadas calmas como <b>Perequê-Açu</b> e <b>Camburizinho</b> — veja o nível de cada uma no <a href="https://acarolmourad-commits.github.io/asf-praias/">ASF Praias</a> e a condição do dia no <a href="https://acarolmourad-commits.github.io/asf-previsao/">ASF Previsão</a>.</p></div>
+<div class="card faq" onclick="this.classList.toggle('open')"><div class="q">❓ Minha filha não sabe nadar bem. Pode? <span style="float:right">＋</span></div><div class="a"><p>Só na espuma rasa, com colete e supervisão constante. Invista em aulas de natação em paralelo — segurança vem primeiro.</p></div></div>
+<div class="card faq" onclick="this.classList.toggle('open')"><div class="q">❓ Qual a melhor idade para começar? <span style="float:right">＋</span></div><div class="a"><p>Não existe idade mínima — existe a praia certa, o equipamento certo e a paciência certa. O <a href="https://acarolmourad-commits.github.io/asf-memoria/">ASF Memória</a> ensina os termos brincando!</p></div></div>
+<div class="card faq" onclick="this.classList.toggle('open')"><div class="q">❓ Como deixar divertido? <span style="float:right">＋</span></div><div class="a"><p>Transforme em jogo: quem fica em pé primeiro, quem conta mais ondas. E quando saírem da água, celebrem no <a href="https://acarolmourad-commits.github.io/asf-desafio/">Desafio 30</a> em dupla.</p></div></div>
 </main>
-<div class="xp">⭐ XP: <span id="xp">0</span></div>
-<footer>ASF — Associação de Surf Feminino · Feito com 🌊 e 💜 · <a href="https://acarolmourad-commits.github.io/asf-app/">asf-app</a></footer>
-<script>
-const XP=()=>parseInt(localStorage.getItem('asf_xp')||'0');
-function addXP(n){localStorage.setItem('asf_xp',XP()+n);document.getElementById('xp').textContent=XP();}
-document.getElementById('xp').textContent=XP();
-const Q=[{q:'A bandeira está vermelha. Você...',o:['Entra mesmo assim','Não entra no mar'],a:1},{q:'Uma corrente te puxa. Você...',o:['Nada de lado, paralela à praia','Grita e entra em pânico'],a:0},{q:'Antes de entrar no mar você...',o:['Corre direto pra água','Aquece e avisa uma adulta'],a:1},{q:'Caiu da prancha? Você...',o:['Protege a cabeça com os braços','Fica parada'],a:0}];let i=0,pts=0;function show(){if(i>=Q.length){document.getElementById('q').textContent='🏆 Você é uma Mini-Surfista nota 10! +20 XP';document.getElementById('o').innerHTML='';addXP(20);return;}const x=Q[i];document.getElementById('q').textContent=x.q;document.getElementById('o').innerHTML=x.o.map((t,j)=>`<button style="display:block;width:100%;margin:.3rem 0;background:#fff;color:var(--roxo);border:2px solid var(--roxo)" onclick="ans(${j})">${t}</button>`).join('');}function ans(j){if(j===Q[i].a){pts+=10;document.getElementById('pts').textContent=pts;document.getElementById('f').textContent='🎉 Isso mesmo!';}else document.getElementById('f').textContent='😯 Ops! Veja as Regras de Ouro.';i++;setTimeout(()=>{document.getElementById('f').textContent='';show();},1200);}show();
-</script>
-
-<!-- ASF Ecossistema Nav v3 (rede completa, 23 sites) -->
-<script>
-(function(){
-  function injectNav(){
-    if(document.querySelector('.asf-sat-nav'))return;
-    var old=document.querySelector('.asf-rede-nav');if(old)old.remove();
-    var sites=[["asf-app","\u{1F30A} App"],["asf-praias","\u{1F3D6}\uFE0F Praias"],["asf-previsao","\u{1F4C8} Previs\u00E3o"],["asf-treino","\u{1F3CB}\uFE0F Treino"],["asf-eventos","\u{1F4C5} Eventos"],["asf-glossario","\u{1F4D6} Gloss\u00E1rio"],["asf-comunidade","\u{1F4AC} Comunidade"],["asf-seguranca","\u{1F6FA} Seguran\u00E7a"],["asf-equipamento","\u{1F3C4}\u200D\u2640\uFE0F Equipamento"],["asf-quiz","\u{1F9E0} Quiz"],["asf-nutricao","\u{1F957} Nutri\u00E7\u00E3o"],["asf-viagens","\u{2708}\uFE0F Viagens"],["asf-historia","\u{1F3C6} Hist\u00F3ria"],["asf-bemestar","\u{1F9D8}\u200D\u2640\uFE0F Bem-estar"],["asf-ranking","\u{1F947} Ranking"],["asf-diario","\u{1F4D3} Di\u00E1rio"],["asf-respira","\u{1FAC1} Respira"],["asf-volume","\u{1F4D0} Volume"],["asf-yoga","\u{1F9D8} Yoga"],["asf-sos","\u{1F198} SOS"],["asf-eco","\u{1F331} Eco"],["asf-kids","\u{1F9D2} Kids"],["asf-mental","\u{1F9E0} Mental"]];
-    var nav=document.createElement('nav');
-    nav.className='asf-sat-nav';
-    nav.setAttribute('aria-label','Ecossistema ASF');
-    nav.style.cssText='background:linear-gradient(135deg,#0ea5e9,#6366f1);padding:.6rem 1rem;display:flex;flex-wrap:wrap;gap:.35rem;justify-content:center;position:sticky;top:0;z-index:10000;';
-    sites.forEach(function(s){
-      var a=document.createElement('a');
-      a.href='https://acarolmourad-commits.github.io/'+s[0]+'/';
-      a.textContent=s[1];
-      a.style.cssText='color:#e0f2fe;text-decoration:none;font-weight:600;font-size:.75rem;padding:.28rem .55rem;border-radius:999px;background:rgba(255,255,255,.12);font-family:inherit;';
-      a.onmouseover=function(){a.style.background='rgba(255,255,255,.35)';};
-      a.onmouseout=function(){a.style.background='rgba(255,255,255,.12)';};
-      nav.appendChild(a);
-    });
-    document.body.insertBefore(nav,document.body.firstChild);
-  }
-  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',injectNav);}else{injectNav();}
-})();
-</script>
+<footer>Parte da constelação ASF • <a href="https://acarolmourad-commits.github.io/asf-app/">Voltar ao app principal</a></footer>
 </body>
 </html>
