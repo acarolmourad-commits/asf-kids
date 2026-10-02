@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://acarolmourad-commits.github.io/asf-kids/sitemap.xml
+
+Sitemap: https://kids.asf.surf/sitemap.xml
